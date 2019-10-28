@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.lib",
+  "files": ["public-api.ts"],
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": true,
+    "strictMetadataEmit": true,
+    "flatModuleOutFile": "index.js",
+    "flatModuleId": "@sesamm/ngx-charts/tree-map",
+    "skipTemplateCodegen": true,
+    "fullTemplateTypeCheck": true
+  }
+}
